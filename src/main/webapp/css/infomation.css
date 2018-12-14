@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#box{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+#box-l{
+	width: 70%;
+	float: left;
+}
+#box-l img{
+	width: 100%;
+	height: 400px;
+
+}
+/* 右边 */
+#box-r{
+	width: 27%;
+	float: right;
+}
+
+#colee{
+	width: 100%;
+	height: 400px;
+	border: solid 1px gray;
+	overflow: hidden;
+}
+#colee1 li{
+	list-style: none;
+}
+#colee1 img{
+	width: 100%;
+	height: 200px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+/*所有资讯部分*/
+#infomation{
+    width: 90%;
+    margin: auto;
+	background-color: #eee;
+	padding: 20px 0;
+	margin-bottom: 25px;
+
+}
+
+.all-box{
+	width: 100%;
+}
+
+
+.info-content,.content{
+	background-color: #fff;
+	margin: 0 0 20px 0;
+	box-shadow: 2px 2px 2px #ccc;
+}
+.info-content img{
+	margin: 12px 0;
+}
+
+
+.right_title{
+	padding: 0px;
+	margin-top: -10px;
+	border-bottom: solid 1px;
+}
+.left_title{
+	width: 95%;
+	margin: auto;
+	margin-bottom: 10px;
+	border-bottom: solid 1px;
+	
+}
+.right_content {
+	height: 180px;
+	margin-top: 10px;
+	background-color: #fff;
+}
+.right_content img{
+	height: 150px;
+	padding-left: 5px;
+}
+.right_content .col-md-7{
+	padding: 5px 20px;
+}
+
+.money{
+	width: 100%;
+	padding-left: 65%;
+	margin-top: 40px;
+}
+.money img{
+	width: 25px;
+	height: 25px;
+	padding-bottom: 5px;
+}
+.money #sum{
+	color: red;
+	font-size: 22px;
+}

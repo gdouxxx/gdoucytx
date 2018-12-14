@@ -1,0 +1,78 @@
+.orderMsg{
+	width: 100%;
+	padding-left: 5%;
+	padding-top: 2%;
+	height: 500px;
+}
+.confirm{
+	width: 90%;
+}
+.confirm ul li{
+	list-style: none;
+	padding-top:2%;
+	margin-left: 6%;
+}
+.nameBox{
+	width: 50%;
+	height: 60px;
+	text-align: center;
+}
+.timeBox{
+	width: 50%;
+	display: inline-block;
+}
+.timeBox h4{
+	float: left;
+}
+.timeBox .dateTime{
+	float: left;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+.numBox{
+	width: 50%;
+	display: inline-block;
+}
+.numBox h4,.numBox h5,.numBox .adult,.numBox h5,.numBox .child{
+	float: left;
+}
+.numBox h5{
+	margin-left: 5%;
+}
+.numBox .adult,.numBox .child{
+	width: 7%;
+	margin-top: 1%;
+	margin-left: 2%;
+}
+.addressBox{
+	width: 50%;
+	height: 60px;
+	text-align: center;
+}
+.contactBox{
+	width: 50%;
+	display: inline-block;
+}
+.contactBox h4,.contactBox .contact{
+	float: left;
+}
+.contactBox .contact{
+	margin-left: 8%;
+	margin-top: 1%;
+}
+.contactNumBox{
+	width: 50%;
+	display: inline-block;
+}
+.contactNumBox h4,.contactNumBox .contactNum{
+	float: left;
+}
+.contactNumBox .contactNum{
+	margin-left: 5%;
+	margin-top: 1%;
+}
+.submitBox{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}

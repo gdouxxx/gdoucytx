@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#strategy{
+	width: 90%;
+	margin: auto;
+}
+
+#recommend{
+	width: 100%;
+	border:solid 1px red;
+	height: 350px;
+	display:flex;
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#recommend-l{
+	width: 32%;
+	height: 350px;
+	background-color: red;
+}
+#recommend-c{
+	width: 32%;
+	height: 350px;
+	background-color: red;
+}
+#recommend-r{
+	width: 32%;
+	height: 350px;
+	background-color: red;
+}
+
+
+/*分割线 */
+.line{
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+    background-color: #fff;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.middle-line:before{
+	content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #999;/*颜色需与主题大背景色一致*/ 
+    position: relative;
+    top: 10px;/*调节线高*/
+    left: 0;
+}
+.line-text{
+	display: inline-block;
+    background: #fff;
+    padding: 0 28px 0 28px;
+    position: relative;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    color: blue;
+}
+
+
+/*咨询部分 */
+#infomation,#all_infomation{
+	width: 90%;
+
+    height: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+#content{
+	width: 100%;
+	margin-bottom: 50px;
+	display:flex;
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+#content img{
+	width: 100%;
+}
+#content-1{
+	width: 30%;
+	height: 450px;
+	padding: 5px;
+	box-shadow: 0px 5px 5px 0px #ccc;
+
+}
+#content .title{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+    color: blue;
+    border-bottom: solid 1px #aaa;
+}
+#content button{
+    margin:auto;
+    margin-left: 37%;
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+}
+#content-2{
+	width: 30%;
+	height: 450px;
+	padding: 5px;
+	box-shadow: 0px 5px 5px 0px #ccc;
+}
+#content-3{
+	width: 30%;
+	height: 450px;
+	padding: 5px;
+	box-shadow: 0px 5px 5px 0px #ccc;
+}
+
+

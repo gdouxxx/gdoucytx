@@ -1,0 +1,423 @@
+*{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+
+/*欢迎框 */
+.wellcome{
+	width: 100%;
+	height: 30px;
+	background-color: #f0f0f0;
+	opacity: 0.6;
+}
+.wellcome span{
+	line-height: 30px;
+}
+
+
+/*logo部分 */
+.logo{
+    width: 100%;
+    height: 130px;
+}
+.logo-both{
+	float: left;
+	width: 70%;
+}
+.logo-l{
+	float: left;
+	width: 30%;
+	height:130px;
+	
+}
+.logo-l img{
+	width: 90%;
+	height: 90px;
+	margin: 5% 45%;
+}
+
+.logo-c{
+	float: right;
+	width: 70%;
+	height:130px;
+	overflow: hidden;
+}
+
+.logo-c .serch{
+	width: 30%;
+	height: 45px;
+    /*margin: 50px 100px;*/
+    position: absolute;
+    top: 11%;
+    left: 36%;
+    border-radius: 5px;
+    border:solid 1px #666;
+}
+.logo-c .btn{
+	width: 5%;
+	height: 45px;
+	position: absolute;
+	top: 11%;
+    left: 67%;
+    background-color: #1E90FF;
+}
+.logo-c .btn:hover{
+	opacity: 0.9;
+}
+.logo-r{
+	float: left;
+	width: 27%;
+	height:130px;
+	display: flex;
+	padding-left: 5%;
+}
+.logo-r img{
+	width: 100%;
+	height: 90px;
+	margin: 4% 0;
+}
+
+.logo-r span{
+	margin: 35px 15px;
+}
+@media screen and (max-width: 1300px) {
+.logo-r {
+  display: none;
+}
+}
+
+
+/*导航栏 */
+.nav{
+	width: 100%;	
+
+}
+#nav_daohang{
+	/*background-color: #00ab00;*/
+}
+#nav_daohang ul li{
+	list-style: none;
+}
+#nav_daohang ul li a{
+    text-decoration: none;
+    display: block;
+
+}
+#nav_daohang a:hover,#nav_daohang .active a{
+	background-color: #ddd;
+}
+.dropdown {
+    position: relative;
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #ddd;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content{ 
+    display: inline-block;
+    background:#eee;
+}
+
+
+
+/*轮播图 */
+.lunbo{
+	width: 100%；
+	height:400px;
+    margin-bottom: 50px;
+}
+
+.lunbo-img img{
+    width: 1530px;
+    height: 450px;
+}
+
+/* 
+#list{
+	
+	position: absolute;
+	top: 280px;
+	left: 30PX;
+	display: inline-flex;	
+}
+#list #list-l{
+	width: 150px;	
+	background-color: white;
+}
+.list-table{
+	width: 100%;
+}
+.list-table tr{	
+	
+}
+
+#list #list-r{
+	width: 350px;
+	height: 253px;
+	background-color: white;
+}
+
+#pictrue{
+	width: 50px;
+	height: 50px;
+	background-color: #999;
+}
+#pictrue img{
+	width: 35px;
+	height: 35px;
+	margin-left: 5px;
+}
+#cont{
+	width: 100px;
+	text-align: center;
+	border: solid 1px #f3f3fa;
+}
+
+#cont:hover, #cont:hover a{
+	background-color: #eee;
+	color: red;
+}
+
+#cont a{
+	text-decoration: none;
+	color: #666;
+}
+#cont img{
+	width: 10px;
+	height: 10px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}
+*/
+/*满意度调查
+.gundong{
+	width: 100%;
+	height: 50px;
+	background-color: #eee;
+}
+.box1{
+	width: 70%;
+	display: flex;
+	margin: auto;
+}
+.manyi{
+	padding-top: 8px;
+	width: 170px;
+	justify-content: flex-start;
+}
+.content{
+	margin-top: 8px;
+	width: 96%;
+	height: 30px;
+	line-height: 37px;
+	color: #aaa;
+} */
+
+
+/*最新资讯部分 */
+#hot-infomation{
+	width: 90%;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 30px;
+	display:flex;
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+#hot-infomation img{
+	width: 100%;
+	height: 230px;
+	padding-bottom: 3px;
+}
+#hot-infomation .title{
+	text-align: center;
+	margin-top: 5%;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+#hot-infomation .money{
+	margin-top: 10%;
+	margin-left: 70%;
+	color: #ff6347;
+	font-size: 22px;
+}
+#hot-infomation #rmb{
+	height: 25px;
+	width: 25px;
+}
+.infomation_l{
+    width: 32%;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.infomation_c{
+    width: 32%;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.infomation_r{
+    width: 32%;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+
+/*热门攻略 */
+#hot-strategy{
+	width: 90%;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 50px;
+	display:flex;
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+#title h3{
+	margin-top: 10px;
+	text-align: center;
+	color: #eee;
+	font-size: 22px;
+}
+#title p{
+	color: #aaa;
+	padding: 10px 30px;
+}
+#hot-strategy #chenkinfomation{
+	border: solid 1px #eee;
+	background-color: #666;
+	color: #eee;
+	width: 110px;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 50%;
+	margin-left: 35%;
+}
+#strategy_1{
+	width: 25%;
+    height: 400px;
+    background: url(../images/香港.jpg);
+}
+#strategy_2{
+	width: 25%;
+    height: 400px;
+    background: url(../images/天堂岛.jpg);
+}
+#strategy_3{
+	width: 25%;
+    height: 400px;
+    background: url(../images/雅砻江.jpg);
+}
+#strategy_4{
+	width: 25%;
+    height: 400px;
+    background: url(../images/云南.jpg);
+}
+
+
+/*底部部分 */
+.foot{
+	width: 100%;
+	height: 200px;
+	background-color: #999;
+}
+
+/*分割线 */
+.line{
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+    background-color: #fff;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.middle-line:before{
+	content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #999;/*颜色需与主题大背景色一致*/ 
+    position: relative;
+    top: 10px;/*调节线高*/
+    left: 0;
+}
+.line-text{
+	display: inline-block;
+    background: #fff;
+    padding: 0 28px 0 28px;
+    position: relative;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    color: blue;
+}
+
+
+.toTop{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	right: 1%;
+	bottom: 5%;
+	background-color: gray;
+	text-align: center;
+}
+.toTop .glyphicon-chevron-up{
+	font-size: 200%;
+	color: white;
+}
+
+
+
+
+/*底部部分 */
+.foot{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	background-color: #999;
+}
+.foot a{
+	color: 	#E6E6FA;
+	text-decoration: none;
+}
+.foot a:hover{
+	opacity: 0.7;
+}
+.foot table{
+	width: 80%;
+	margin-left: 10%;
+}
+.foot table th,.foot table td{
+	width: 20%;
+	text-align: center;
+	padding-top: 1%;
+}
+.foot .footer{
+	margin-top: 3%;
+	font-size: 70%;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+.detail{
+	width: 100%;
+	height: 500px;
+}
+.box{
+	margin-left: 35%;
+	width: 50%;
+	text-align: left;
+	list-style: none;
+}
+.name{
+	text-align: center;
+}
+.box li{
+	width: 100%;
+	padding-top: 2%;
+	display: inline-block;
+}
+.box h4,.box h5{
+	float: left;
+}
+.box h5{
+	margin-left: 3%;
+}
+.box .num{
+	width: 100%;
+}
+.box .num h5{
+	margin-left: 5%;
+	float: left;
+}
+.box .button .cancel,.button .return{
+	margin-left: 10%;
+	margin-top: 2%;
+}

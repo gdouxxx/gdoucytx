@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#bg{
+    width: 100%;
+    height: 300px;
+    background:url(../images/backg.jpg)no-repeat;
+    background-size:100%100%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+#bg h1{
+	padding-top: 5%;
+	padding-left: 70%;
+}
+#bg h3{
+	padding-left: 80%;
+}
+
+
+/*分割线 */
+.line{
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+    background-color: #fff;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.middle-line:before{
+	content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #999;/*颜色需与主题大背景色一致*/ 
+    position: relative;
+    top: 10px;/*调节线高*/
+    left: 0;
+}
+.line-text{
+	display: inline-block;
+    background: #fff;
+    padding: 0 28px 0 28px;
+    position: relative;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    color: blue;
+}
+
+
+
+/*内容部分 */
+#introduce{
+	width: 90%;
+	height: 530px;
+	margin: auto;
+	display:flex;
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.introduce-l{
+	width: 30%;
+	height: 500px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+#introduce .img{
+	width: 100%;
+	height: 300px;
+	background: url(../images/yangsuo.jpg);
+}
+#introduce .img button{
+	width: 80px;
+	height: 30px;
+	margin: 5% 5%;
+	border: 0px;
+	background-color: #ff6347;
+}
+#introduce .title{
+	text-align: center;
+	margin-top: 8%;
+	font-size: 20px;
+}
+#introduce .money{
+	margin-top: 18%;
+	margin-left: 60%;
+	color: #ff6347;
+	font-size: 18px;
+}
+#introduce #rmb,#all_strategy #rmb{
+	width: 25px;
+	height: 25px;
+
+}
+
+.introduce-c{
+	width: 30%;
+	height: 500px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+
+.introduce-r{
+	width: 30%;
+	height: 500px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+
+
+/*所有特价部分 */
+#all_strategy{
+	width: 90%;
+	height: 700px;
+	border: solid 1px gray;
+
+	margin: auto;
+	display:flex;
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+#all_strategy img{
+	width: 100%;
+	height: 200px;
+}
+#all_strategy .strategy_title{
+	text-align: center;
+	margin-top: 8%;
+	font-size: 22px;
+}
+#all_strategy .strategy_money{
+	margin-top: 5%;
+	margin-left: 45%;
+	color: #ff6347;
+	font-size: 18px;
+}
+#all_strategy .strategy_1{
+	width: 23%;
+	height: 300px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+
+
+#all_strategy .strategy_2{
+	width: 23%;
+	height: 300px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+#all_strategy .strategy_3{
+	width: 23%;
+	height: 300px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+#all_strategy .strategy_4{
+	width: 23%;
+	height: 300px;
+	box-shadow: 2px 2px 2px #ccc;
+}

@@ -1,0 +1,126 @@
+.person{
+	width: 100%;
+	height: 500px;
+}
+.person .selection{
+	width: 20%;
+	text-align: center;
+	float: left;
+}
+.person .selection .select{
+	list-style: none;
+	width: 70%;
+	margin-left: 10%;
+	margin-top: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border: solid 1px;
+	background-color: #ddd;
+	cursor: pointer;
+}
+.person .selection .select:hover,.person .selection .active{
+	background-color: #1E90FF;
+}
+.info{
+	width: 75%;
+	height: 100%;
+	float: left;
+	margin-left: 2%;
+	display: none;
+}
+.info.active{
+	display: block;
+}
+
+/*个人信息*/
+.person .info .myInfo{
+	margin-top: 1%;
+	width: 30%;
+	margin-left: 20%;
+}
+.person .info .myInfo td,.strategy th,.order th,.goods th{
+	height: 60px;
+	margin-top: 1%;
+	text-align: center;
+}
+.person .info .myInfo .txt{
+	width: 30%;
+}
+.person .info .head{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}
+.person .info .modify{
+	width: 15%;
+	margin-left: 25%;
+	margin-top: 3%;
+}
+.person .info .apply{
+	width: 15%;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+/*攻略资讯*/
+.strategy{
+	margin-top: 1%;
+	width: 90%;
+}
+.strategy .title{
+	width: 20%;
+}
+.strategy .detail{
+	width: 50%;
+}
+.strategy .time{
+	width: 10%;
+}
+.strategy .operation{
+	width: 20%;
+}
+
+/*订单*/
+.order{
+	margin-top: 1%;
+	width: 90%;
+}
+.order .orderNum{
+	width: 10%;
+}
+.order .goodsName{
+	width: 40%;
+}
+.order .status{
+	width: 10%;
+}
+.order .price{
+	width: 20%;
+}
+.order .operation{
+	width: 20%;
+}
+
+/*商品*/
+.goods{
+	margin-top: 1%;
+	width: 90%;
+}
+.goods .goodsImg{
+	width: 20%;
+}
+.goods .goodsName{
+	width: 50%;
+}
+.goods .price{
+	width: 10%;
+}
+.goods .operation{
+	width: 20%;
+}
+
+.modal .head{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}

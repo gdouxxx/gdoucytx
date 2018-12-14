@@ -1,0 +1,145 @@
+.admin{
+	width: 100%;
+	height: 500px;
+}
+.admin .selection{
+	width: 20%;
+	text-align: center;
+	float: left;
+}
+.admin .selection .select{
+	list-style: none;
+	width: 70%;
+	margin-left: 10%;
+	margin-top: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border: solid 1px;
+	background-color: #ddd;
+	cursor: pointer;
+}
+
+.admin .selection .select:hover,.admin .selection .active{
+	background-color: #1E90FF;
+}
+.info{
+	width: 75%;
+	height: 100%;
+	float: left;
+	margin-left: 2%;
+	display: none;
+}
+.info.active{
+	display: block;
+}
+
+/*用户管理*/
+.userInfo{
+	width: 100%;
+}
+.userInfo td{
+	padding-top: 1%;
+	text-align: center;
+}
+.userInfo th{
+	text-align: center;
+}
+.userInfo .headImg{
+	width: 20%;
+}
+.userInfo .userName{
+	width: 20%;
+}
+.userInfo .email{
+	width: 20%;
+}
+.userInfo .phoneNum{
+	width: 20%;
+}
+.userInfo .operation{
+	width: 20%;
+}
+
+/*商家管理*/
+.applyInfo{
+	width: 100%;
+}
+.applyInfo td{
+	padding-top: 1%;
+	text-align: center;
+}
+.applyInfo th{
+	text-align: center;
+}
+.applyInfo .userName{
+	width: 20%;
+}
+.applyInfo .phoneNum{
+	width: 20%;
+}
+.applyInfo .status{
+	width: 20%;
+}
+.applyInfo .operation{
+	width: 20%;
+}
+
+.goods{
+	margin-top: 10%;
+}
+.goodsInfo{
+	width: 100%;
+}
+.goodsInfo th{
+	text-align: center;
+}
+.goodsInfo td{
+	padding-top: 1%;
+	text-align: center;
+}
+.goodsInfo .goodsImg{
+	width: 20%;
+}
+.goodsInfo .goodsName{
+	width: 30%;
+}
+.goodsInfo .price{
+	width: 10%;
+}
+.goodsInfo .operation{
+	width: 20%;
+}
+
+/*订单管理*/
+.orderInfo{
+	width: 100%;
+	margin-top: 3%;
+}
+.orderInfo td{
+	padding-top: 1%;
+	text-align: center;
+}
+.orderInfo th{
+	text-align: center;
+}
+.orderInfo .orderNum{
+	width: 20%;
+}
+.orderInfo .goodsName{
+	width: 20%;
+}
+.orderInfo .status{
+	width: 20%;
+}
+.orderInfo .price{
+	width: 20%;
+}
+.orderInfo .operation{
+	width: 20%;
+}
+
+.modal .head{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+}

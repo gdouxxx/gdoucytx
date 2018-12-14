@@ -1,0 +1,177 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../images/bg-2.jpg);
+}
+.top{
+   margin: 10px 30px;
+}
+.top ul li{
+   list-style: none;
+   float: left;
+   border:solid 1px gray;
+   margin-left: 20px;
+   width: 100px;
+   height: 50px;
+   text-align: center;
+   line-height: 50px;
+   font-size: 18px;
+   background-color: #999;
+   opacity: 0.6;
+}
+.top ul li a{
+   text-decoration: none;
+   color: white;
+}
+.top ul li:hover{
+	background-color: #666;
+}
+
+.box{
+	width: 400px;
+	height: 430px;
+	position: absolute;
+	top: 15%;
+	right: 3%;
+	background-color: white;
+}
+.header{
+	border-bottom:solid 1px #eee;
+	height: 60px;
+	margin: 5px 0;
+}
+#myTab{
+	list-style: none;
+	border-radius: 0;
+	border:0;
+}
+#myTab li{
+	width: 50%;
+	text-align: center;
+}
+.header ul li a{
+	font-size: 16px;
+}
+
+#myTab li a:hover,#myTab li.active a{
+	background-color: #6495ED;
+}
+/*登录 */
+#login{
+	margin: auto;
+}
+#username_txt{
+	width: 90%;
+	height: 39px;
+	margin: auto;
+	border:1px solid #dddddd;
+	line-height:32px;
+	color:#b1a9a9;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+#password_txt{
+    width: 90%;
+	height: 39px;
+	margin: auto;
+	border:1px solid #dddddd;
+	line-height:32px;
+	color:#b1a9a9;
+	margin-bottom:20px;
+}
+#phonenum{
+	width: 90%;
+	height: 39px;
+	margin: auto;
+	border:1px solid #dddddd;
+	line-height:32px;
+	color:#b1a9a9;
+	margin-bottom:20px;
+}
+#txt_yzm{
+	width: 200px;
+	height: 39px;
+}
+.yanzheng,#zidong{
+	width: 90%;
+	height: 50px;
+	margin: auto;
+}
+.yzcode{
+	width: 90%;
+	height: 30px;
+	margin:auto;
+	margin-bottom: 15px;
+	display: flex;
+}
+.coderd{
+    width: 90px;
+	height: 30px;
+	margin-left: 20px;
+	border-radius: 5px;
+	border:1px solid #dddddd;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.codetxt input{
+	width: 160px;
+	height: 30px;
+}
+   
+.shuaxin img{
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+#zidong a{
+	margin-left: 30px;
+}
+#denglu{
+	width: 90%;
+	height: 40px;
+	margin-left: 20px;
+}
+
+.register{
+	width: 90%;
+	margin: auto;
+	margin-top: 15px;
+}
+
+/*短信登录 */
+#yzm{
+	width: 160px;
+	height: 35px;
+	border:solid 1px #dddddd;
+}
+#yz{
+	margin-left: 50px;
+}
+#btn-denglu{
+	width: 90%;
+	height: 40px;
+	margin-left: 20px;
+}
+
+.errorTips{
+	display: block;
+	width: 90%;
+	height: 23px;
+	margin:auto;
+	margin-top: -15px;
+	color: red;
+}
+.yanzheng{
+	display: flex;
+	margin-bottom: 15px;
+}
+#yz{
+	margin-top: 3px;
+}
