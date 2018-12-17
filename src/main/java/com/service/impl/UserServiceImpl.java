@@ -11,6 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 @Service
 @SessionAttributes("user")
@@ -73,5 +74,16 @@ public class UserServiceImpl implements UserService {
     }
 
 
+    @Override
+    public int deleteUser(Integer userId){return userDao.deleteUser(userId);}
+
+    @Override
+    public List<User> queryAllUser(){return userDao.queryAllUser();}
+
+    @Override
+    public User queryUser(Integer userId){return userDao.queryUser(userId);}
+
+    @Override
+    public  int updateUser(User user){return userDao.updateUser(user);}
 }
 

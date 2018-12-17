@@ -2,6 +2,7 @@ package com.dao;
 
 import com.pojo.User;
 
+import java.util.List;
 
 
 public interface UserDao {
@@ -31,4 +32,16 @@ public interface UserDao {
 //    User addUser(User user);
       int addUser(User user);
 
+      //删除用户通过ID
+      int deleteUser(Integer userId);
+
+      //查询所有用户
+      List<User> queryAllUser();
+
+
+      //查询用户
+      User queryUser(Integer userId);
+
+      //修改用户
+      int updateUser(User user);
 }

@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -45,5 +47,40 @@ public class UserDaoTest {
         System.out.print(user);
 
     }
+
+    @Test
+    public void deleteUser()
+    {
+        int user =userDao.deleteUser(9);
+        System.out.print(user);
+
+    }
+
+    @Test
+    public void queryAllUser()
+    {
+        List<User> User = userDao.queryAllUser();
+        System.out.print(User);
+
+    }
+
+    @Test
+    public void queryUser()
+    {
+       User user= userDao.queryUser(4);
+        System.out.print(user);
+
+    }
+
+    @Test
+    public void updateUser()
+    {
+        User u1= userDao.queryUser(4);
+        u1.setPassword("123456");
+        int user= userDao.updateUser(u1);
+        System.out.print(user);
+
+    }
+
 
 }

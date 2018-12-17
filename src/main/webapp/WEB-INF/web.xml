@@ -23,7 +23,14 @@
     <servlet-name>userLogin</servlet-name>
     <!-- 默认匹配所有的请求 -->
     <url-pattern>/</url-pattern>
+
+
+
   </servlet-mapping>
+
+
+
+
   <filter>
     <filter-name>encodingFilter</filter-name>
     <filter-class>

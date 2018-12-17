@@ -4,6 +4,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
 
 public interface UserService {
@@ -21,5 +22,17 @@ public interface UserService {
 
     //用户注册
     int addUser(User user);
+
+    //用户删除
+    int deleteUser(Integer userId);
+
+    //查询所有用户
+    List<User> queryAllUser();
+
+   //查询用户
+    User queryUser(Integer userId);
+
+    //修改用户
+    int updateUser(User user);
 
 }

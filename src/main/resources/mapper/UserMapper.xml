@@ -34,5 +34,29 @@
 
 	</insert>
 
+    <!-- 删除用户 -->
+    <delete id="deleteUser" parameterType="Integer">
+        DELETE FROM user WHERE user_id=#{userId}
+    </delete>
+
+    <!-- 查询所有用户 -->
+    <select id="queryAllUser" resultMap="userResultMap">
+        SELECT user_id,user_name,user_phone,user_email
+        FROM user
+    </select>
+
+    <!-- 查询用户 -->
+    <select id="queryUser" resultMap="userResultMap">
+        SELECT user_id,user_name,user_phone,user_email
+        FROM user
+        WHERE user_id=#{userId}
+    </select>
+
+    <!-- 修改用户 -->
+    <update id="updateUser" parameterType="User">
+        UPDATE user
+        SET user_name = #{username},user_password = #{password},user_phone = #{phone},user_email = #{email}
+        WHERE  user_id = #{userId}
+    </update>
 
 </mapper>
